@@ -1,4 +1,4 @@
-'''
+
 data = [
     {
         'name': 'Instagram',
@@ -303,27 +303,3 @@ data = [
         'country': 'United States'
     }
 ]
-'''
-
-data=[{
-        'name': 'FC Barcelona',
-        'follower_count': 85,
-        'description': 'Football club',
-        'country': 'Spain'
-    },
-    {
-        'name': 'Rihanna',
-        'follower_count': 81,
-        'description': 'Musician and businesswoman',
-        'country': 'Barbados'
-    },
-    {
-        'name': 'NBA',
-        'follower_count': 47,
-        'description': 'Club Basketball Competition',
-        'country': 'United States'
-    }
-]
-
-for i in data:
-    print(i["name"])
